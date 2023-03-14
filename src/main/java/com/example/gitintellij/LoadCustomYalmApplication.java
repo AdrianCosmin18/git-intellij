@@ -15,6 +15,7 @@ public class LoadCustomYalmApplication {
         Environment env=ctx.getEnvironment();
         System.out.println("Odisha abbr ::"+env.getProperty("india.odisha"));
         System.out.println("Odisha abbr ::"+env.getProperty("india.odisha"));
+        System.out.println("Odisha abbr ::"+env.getProperty("india.odisha"));
     }
 
 }
