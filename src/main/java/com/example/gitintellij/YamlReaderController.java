@@ -10,5 +10,9 @@ public class YamlReaderController {
     private String abbr;
 
     @GetMapping("/getvalue")
-    public String getValue(){ return abbr; }
+    public String getValue()
+    {
+        System.out.println("Controller");
+        return abbr;
+    }
 }
